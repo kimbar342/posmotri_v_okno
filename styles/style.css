@@ -10,7 +10,7 @@ html {
 
 .page {
   inline-size: 1200px;
-  block-size: 100%;
+  block-size: auto;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -35,4 +35,234 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  max-width: 1140px;
+  height: 534px;
+  margin: 133px auto 0;
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+
+.result {
+}
+
+.result__video-container {
+  position: relative;
+  width: 711px;
+  height: 456px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 16px;
+}
+
+.search-form__fieldset {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  border: none;
+  font-weight: 400;
+}
+
+.search-form__fieldset-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(255 255 255);
+  margin-bottom: 5px;
+}
+
+.search-form__label {
+  display: flex;
+}
+
+.search-form__label-text {
+  margin-left: 5px;
+}
+
+.search-form__label-text:hover {
+  cursor: pointer;
+  text-decoration: 1px underline white;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.search-form__textfield {
+  min-width: 225px;
+  background-color: transparent;
+  padding: 3px 12px 3px 0;
+  color: #fff;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.search-form__textfield:focus {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.search-form__pseudo-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #fff;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+  text-decoration: 1px underline white;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+  align-self: end;
+  min-width: 194px;
+  height: 34px;
+}
+
+.content__details {
+  max-width: 399px;
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 75px;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__list {
+  position: relative;
+  height: 298px;
+  width: 399px;
+  overflow-y: scroll;
+  font-family: Oswald, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__list:focus {
+  outline: none;
+}
+
+.content__list-item:hover {
+  cursor: pointer;
+  text-decoration: 1px underline white;
+}
+
+.content__list-item:active {
+  background-color: #545050;
+}
+
+.content__card-link {
+  text-decoration: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
+}
+
+.content__video-card {
+  max-width: 392px;
+  margin-left: 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content__video-card-description-container {
+  padding: 2px;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+}
+
+.content__video-card-title {
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.content__video-card-thumbnail {
+  max-width: 194px;
+  width: 100%;
+  height: auto;
+}
+
+.more-button {
+  width: 150px;
+  height: 34px;
+  margin-left: 2px;
+  margin-bottom: 2px;
 }
