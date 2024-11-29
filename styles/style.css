@@ -10,8 +10,8 @@ html {
 
 .page {
   inline-size: 1200px;
-  block-size: auto;
-  margin: auto;
+  margin: 0 auto;
+  height: 100%;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -38,21 +38,22 @@ ol {
 }
 
 .content {
-  max-width: 1140px;
-  height: 534px;
-  margin: 133px auto 0;
   display: flex;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
+  max-width: 1140px;
+  height:100%;
 }
 
 .result {
+  margin-top: 78px;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 456px;
+  height: 386px;
 }
 
 .result__video {
@@ -214,6 +215,11 @@ ol {
   outline: none;
 }
 
+.content__list-item {
+  width: 380px;
+  margin-left: 3px;
+}
+
 .content__list-item:hover {
   cursor: pointer;
   text-decoration: 1px underline white;
@@ -261,7 +267,7 @@ ol {
 }
 
 .more-button {
-  width: 150px;
+  width: 380px;
   height: 34px;
   margin-left: 2px;
   margin-bottom: 2px;
