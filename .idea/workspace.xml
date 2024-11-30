@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c185e22-5593-4a87-ad1b-27bc8e73d494" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kimbar342&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:kimbar342/posmotri_v_okno.git&quot;,
+    &quot;accountId&quot;: &quot;c9c8ea76-60d3-4dac-bd31-074965613d30&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -68,7 +81,8 @@
       <workItem from="1732809919694" duration="127000" />
       <workItem from="1732860403531" duration="466000" />
       <workItem from="1732860890105" duration="138000" />
-      <workItem from="1732865142459" duration="33494000" />
+      <workItem from="1732865142459" duration="34078000" />
+      <workItem from="1732916123602" duration="10146000" />
     </task>
     <servers />
   </component>
